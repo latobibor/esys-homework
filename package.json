@@ -1,0 +1,26 @@
+{
+  "name": "toth-andras-emarsys-homework",
+  "version": "1.2.3",
+  "description": "Emarsys homework done by András Dániel Tóth",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write ./src/**/* index.ts",
+    "run-main": "node dist/index.js",
+    "start": "npm-run-all build run-main",
+    "test": "jest",
+    "test-watch": "jest --watchAll"
+  },
+  "author": "András Dániel Tóth",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "1.19.1",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
+  }
+}
